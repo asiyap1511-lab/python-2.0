@@ -1,5 +1,5 @@
-X="asiya"
-print(type(X)) #both are build in function
+name="Asiya"
+print(type(name)) #both are build in function
 
-X=10
-print(type(X))
+name=10
+print(type(name))
