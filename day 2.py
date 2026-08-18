@@ -3,11 +3,11 @@ STRING Datatype: Methods(belongs to an object)
 
 #using variables and f-strings
 
-print("My name is Anupam") #without variables
-print("Anupam loves Python")
+print("My name is Asiya") #without variables
+print("Asiya loves Python")
 
 #with variable
-name = "Anupam"
+name = "Asiya"
 language = "Python"
 print(name, " is my name")
 print(name, "loves ", language)
@@ -27,7 +27,7 @@ print("She said \"Hi\"")
 
 #String: types & math
 
-name = "anupam"
+name = "Asiya"
 age = 22
 
 print(type(name))          # type: check datatype
@@ -42,10 +42,10 @@ date = "2026/05/10"
 print(date.replace("/","-"))
 #replaces certain text to another
 
-first = "Anupam"; last = "Dutta"
+first = "Asiya"; last = "Parveen"
 print(f"{first} {last}")
 
-cssv = "Anupam,22,India"
+cssv = "Asiya,22,India"
 print(cssv.split(","))
 #creates a list
 
@@ -56,7 +56,7 @@ path = "C:\\User"
 print(path)
 
 
-code = "AnupamDutta-22"
+code = "AsiyaParveen-22"
 
 print(code[0])   #"A" beacause indexing starts with 0 
 
@@ -76,14 +76,14 @@ print(code[:10:2]) #stride  [start:end:step]
 
 #strings cleaning
 
-name = "  Anupam       "
+name = "  Asiya       "
 
 print(name.strip())
 print(name.lstrip())
 print(name.rstrip())
 #strip removes whitespace: l for left and r for right
 
-print("$Anupam$$$$$".strip("$"))
+print("$Asiya$$$$$".strip("$"))
 #removes specific character from the data
 
 search = "EMAIL"
@@ -102,7 +102,7 @@ print(phn.startswith("+91"))    #returns boolean
 file = "data_backup.txt"
 print(file.endswith(".txt"))    #returns boolean
 
-email = "anupamduttahcs@gmail.com"
+email = "AsiyaParveenhcs@gmail.com"
 print(email.find("@")) #shows position
 print("@" in email)    #returns boolean
 
