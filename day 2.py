@@ -102,7 +102,7 @@ print(phn.startswith("+91"))    #returns boolean
 file = "data_backup.txt"
 print(file.endswith(".txt"))    #returns boolean
 
-email = "AsiyaParveenhcs@gmail.com"
+email = "asiyap1511@gmail.com"
 print(email.find("@")) #shows position
 print("@" in email)    #returns boolean
 
